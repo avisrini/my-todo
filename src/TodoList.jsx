@@ -28,7 +28,7 @@ class TodoList extends React.Component {
     render() {
         return (
             <div className="todoListMain">
-                <img className="logo" src="./todo-icon.png" alt="My Todo App" />
+                <img className="logo" src="/todo-icon.png" alt="My Todo App" />
                 <div className="header">
                     <form onSubmit={this.addNewTask}>
                         <input
